@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>AREESC Inicio</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />                                 
+    <link rel="icon" href="img/iconoareescpestaña.svg">
+
+
+        
+    </head>
+
+<body>
+    <div class="contenedor-navegacion">
+        <div class="contenedor">
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="contenido-logo">
+            <i class="fa-solid fa-user-doctor fa-2xl" style="color: #ffffff"></i>
+            <a href="index.html">AREESC</a>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class
+            ="fa-solid fa-rectangle-list fa-2xl" ></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav contenido-navegacion">
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link no-active1" href="index.html" id="designFocusDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Inicio
+                    </a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link active1" href="pacientes.html" id="patientsDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Pacientes
+                    </a>    
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link no-active1" href="usuarios.html" id="usersDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Usuarios
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="contenedor-registro-pacientes mt-10">         
+    <div class="formulario-registro-pacientes">
+        <h4 class="text-center mt-4">DOCUMENTOS</h4>
+        
+        
+        <form action="" method="post">
+
+            <fieldset class="personales mt-5">
+                <lege class="text-center mt-5 mb-5">ARCHIVOS</lege    nd>
+                
+                <div>
+                    <h5 class="mb-1">Consentimiento</h5>
+                </div>
+                <div class="input-group mb-5">
+                    <span class="input-group-text"><i class="fa-solid fa-file-pdf fa-lg"></i></span>
+                    <input type="file" class="form-control p-3" accept="image/*" aria-label="Subir Consentimiento" id="consentimiento">
+                    <div class="btn-group">
+
+                        <a class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                        <a class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h5 class="mb-1">Odontograma</h5>
+                </div>
+                <div class="input-group mb-5">
+                    <span class="input-group-text"><i class="fa-solid fa-file-image fa-lg"></i></span>
+                    <input type="file" class="form-control p-3" accept="application/pdf" aria-label="Subir Odontograma" id="odontograma">
+                    <div class="btn-group">
+
+                        <a class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                        <a class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h5 class="mb-1">Historia Clínica</h5>
+                </div>
+                <div class="input-group mb-5">
+                    <span class="input-group-text"><i class="fa-solid fa-file fa-lg"></i></span>
+                    <input type="file" class="form-control p-3" aria-label="Subir Historia Clínica" id="historia-clinica">
+                    <div class="btn-group">
+
+                        <a class="btn btn-warning"><i class="fas fa-pencil-alt"></i></a>
+                        <a class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
+                    </div>
+                </div>
+
+
+
+
+
+            </fieldset>
+
+           
+
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary"><i class="fa-solid fa-upload"></i> Subir Archivos</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="iconos-footer contenedor">
+            <a href="#" class="icono-footer"> <i class="fa-brands fa-whatsapp fa-lg"></i>
+            </a>
+            <a href="#" class="icono-footer"> <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="#" class="icono-footer"> <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+            <a href="#" class="icono-footer"> <i class="fa-brands fa-tiktok fa-lg"></i>
+            </a>
+            <a href="#" class="icono-footer"> <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+        </div>
+        <div class="linea-decorativa"></div> <!-- Línea decorativa -->
+
+        <div class="derechos-reservados">
+            <p class="text-center">Todos los derechos reservados a: &copy DENTAL AREESC</p>
+        </div>
+
+
+
+    </footer>
+   <!-- jQuery library -->
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+   <!-- Popper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+   <!-- Latest compiled JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!-- Latest compiled  -->
+   <script src="https://kit.fontawesome.com/d3004808ad.js" crossorigin="anonymous"></script>    
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Subir Archivos PDF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <form action="PruebaGuardar.php" method="post" enctype="multipart/form-data">
+            <fieldset class="personales mt-5">
+                <legend class="text-center mt-5 mb-5">ARCHIVOS</legend>
+                
+                <div>
+                    <h5 class="mb-1">Consentimiento</h5>
+                </div>
+                <div class="input-group mb-5">
+                    <span class="input-group-text"><i class="fa-solid fa-file-pdf fa-lg"></i></span>
+                    <input type="file" name="Consentimiento" class="form-control p-3" accept="application/pdf" aria-label="Subir Consentimiento" required>
+                </div>
+
+                <div>
+                    <h5 class="mb-1">Odontograma</h5>
+                </div>
+                <div class="input-group mb-5">
+                    <span class="input-group-text"><i class="fa-solid fa-file-image fa-lg"></i></span>
+                    <input type="file" name="Odontograma" class="form-control p-3" accept="application/pdf" aria-label="Subir Odontograma" required>
+                </div>
+
+                <div>
+                    <h5 class="mb-1">Historia Clínica</h5>
+                </div>
+                <div class="input-group mb-5">
+                    <span class="input-group-text"><i class="fa-solid fa-file fa-lg"></i></span>
+                    <input type="file" name="Historia_Clinica" class="form-control p-3" accept="application/pdf" aria-label="Subir Historia Clínica" required>
+                </div>
+            </fieldset>
+
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary"><i class="fa-solid fa-upload"></i> Subir Archivos</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
